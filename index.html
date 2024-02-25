@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exclusive</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <div class="nav__block dp__align">
+          <div class="nav__logo__block cursor">
+            <p class="nav__logo__text">Exclusive</p>
+          </div>
+          <ul class="nav__links__ul dp__align">
+            <li class="nav__links__li">
+              <a href="#" class="nav__links__a">Home</a>
+            </li>
+            <li class="nav__links__li">
+              <a href="#" class="nav__links__a">Contact</a>
+            </li>
+            <li class="nav__links__li">
+              <a href="#" class="nav__links__a">About</a>
+            </li>
+            <li class="nav__links__li">
+              <a href="#" class="nav__links__a">Sign Up</a>
+            </li>
+          </ul>
+          <div class="nav__right__block dp__align">
+            <div class="nav__search__block dp__align">
+              <input
+                type="text"
+                name=""
+                id="nav__search"
+                placeholder="What are you looking for?"
+                class="nav__search"
+              />
+              <label for="nav__search"
+                ><i class="fa-solid fa-magnifying-glass nav__icon cursor"></i
+              ></label>
+            </div>
+            <div class="nav__heart__block cursor">
+              <i class="fa-regular fa-heart nav__icon"></i>
+            </div>
+            <div class="nav__cart__block cursor">
+              <img
+                src="./assets/images/Cart1.svg"
+                alt=""
+                class="nav__cart__img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="widget">
+      <div class="container">
+        <div class="widget__block dp__flex">
+          <div class="widget__left__block">
+            <ul class="widget__left__ul dp__cloumn">
+              <li class="widget__left__li dp__align">
+                <p class="widget__li__text">Woman’s Fashion</p>
+                <span
+                  ><img
+                    class="widget__li__img"
+                    src="./assets/images/widget__li__arrow.svg"
+                    alt=""
+                /></span>
+              </li>
+              <li class="widget__left__li dp__align">
+                <p class="widget__li__text">Men’s Fashion</p>
+                <span
+                  ><img src="./assets/images/widget__li__arrow.svg" alt=""
+                /></span>
+              </li>
+              <li class="widget__left__li">
+                <p class="widget__li__text">Electronics</p>
+              </li>
+              <li class="widget__left__li">
+                <p class="widget__li__text">Home & Lifestyle</p>
+              </li>
+              <li class="widget__left__li">
+                <p class="widget__li__text">Medicine</p>
+              </li>
+              <li class="widget__left__li">
+                <p class="widget__li__text">Sports & Outdoor</p>
+              </li>
+              <li class="widget__left__li">
+                <p class="widget__li__text">Baby’s & Toys</p>
+              </li>
+              <li class="widget__left__li">
+                <p class="widget__li__text">Groceries & Pets</p>
+              </li>
+              <li class="widget__left__li">
+                <p class="widget__li__text">Health & Beauty</p>
+              </li>
+            </ul>
+          </div>
+          <div class="widget__right__block">
+            <div class="widget__slick__block slick-track">
+              <div class="widget__slick__item"></div>
+              <div class="widget__slick__item"></div>
+              <div class="widget__slick__item"></div>
+              <div class="widget__slick__item"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="flash">
+      <div class="container">
+        <div class="flash__block">
+          <div class="section__head__block dp__align gap-1rem">
+            <div class="section__red__box dark__red"></div>
+
+            <p class="red__text weight-600">Today's</p>
+          </div>
+
+          <div class="flash__title__time__arrows sp__betweeen gap-3rem">
+            <div class="flash__title__time margin-top-2rem dp__align gap-3rem">
+              <p class="font-2-5rem letter-4% weight-600">Flash Sales</p>
+
+              <div
+                class="flash__time__block weight-600 font-2-5rem dp__align gap-1rem"
+              >
+                <span class="flash__day">00</span>
+                <span class="twice-point">:</span>
+                <span class="flash__hrs">00</span>
+                <span class="twice-point">:</span>
+                <span class="flash__min">00</span>
+                <span class="twice-point">:</span>
+                <span class="flash__sec">00</span>
+              </div>
+            </div>
+
+            <div class="section__arrows dp__align gap-1rem">
+              <div class="section__arrow__left">
+                <i class="fa-solid fa-arrow-left section__arrow cursor"></i>
+              </div>
+
+              <div class="section__arrow__right">
+                <i class="fa-solid fa-arrow-right section__arrow cursor"></i>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="flash__products__block margin-top-3rem dp__align gap-2rem"
+          >
+            <div class="flash__product__block">
+              <!-- <div class="card__add__btn__block  bttn-1-2rem  absolute">
+                <button class="card__add__btn bg__black wd-100 white__text cart-add-btn ">Add To Cart</button>
+              </div> -->
+              <div
+                class="flash__product__img__block padding-3rem bg__light__grey relative"
+              >
+                <img src="./assets/images/red__gamepad.svg" alt="" />
+
+                <div
+                  class="section__red__box dark__red rotate-90 top--2rem left-1-4rem absolute"
+                >
+                  <div class="dp__cloumn gap-03rem font-09rem">
+                    <p class="section__red__box__% rotate-270 white__text">%</p>
+
+                    <p class="section__red__box__num rotate-270 white__text">
+                      -40
+                    </p>
+                  </div>
+                </div>
+
+                <div class="product__heart__eye">
+                  <div
+                    class="product__heart__block absolute top-06rem padding-04rem circle-border bg__white right-1-4rem cursor"
+                  >
+                    <i class="fa-regular fa-heart product__heart"></i>
+                  </div>
+
+                  <div
+                    class="product__heart__block absolute top--2rem right-1-4rem padding-04rem bg__white top-1-2rem circle-border cursor"
+                  >
+                    <i class="fa-regular fa-eye product__eye"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="flash__product__info__block dp__cloumn gap-05rem margin-top-1rem"
+              >
+                <p class="flash__product__title">HAVIT HV-G92 Gamepad</p>
+
+                <div class="flash__product__prices__block dp__align gap-05rem">
+                  <p class="red__text">$<span class="price">120</span></p>
+
+                  <p class="grey__text line-through">
+                    $<span class="price">160</span>
+                  </p>
+                </div>
+
+                <div
+                  class="flash__product__stars__feedback dp__align gap-05rem"
+                >
+                  <div class="flash__stars">
+                    <img src="./assets/images/star__yellow.svg" alt="" />
+
+                    <img src="./assets/images/star__yellow.svg" alt="" />
+
+                    <img src="./assets/images/star__yellow.svg" alt="" />
+
+                    <img src="./assets/images/star__yellow.svg" alt="" />
+
+                    <img src="./assets/images/star__yellow.svg" alt="" />
+                  </div>
+
+                  <div class="flash__feedback grey__text">
+                    <p>(<span class="flash__feedback__num">88</span>)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flash__button__block">
+          <button
+            class="center-margin dark__red big__btn border-none cursor border-radius-03"
+          >
+            <a href="#" class="white__text">View All Products</a>
+          </button>
+        </div>
+        <hr class="margin-top-3rem margin-bttn-3rem" />
+      </div>
+    </section>
+
+    <section class="browse">
+      <div class="container">
+        <div class="browse__block">
+          <div class="section__head__block dp__align gap-1rem">
+            <div class="section__red__box dark__red"></div>
+
+            <p class="red__text weight-600">Categories</p>
+          </div>
+
+          <div class="section__title__arrows sp__betweeen2 gap-3rem">
+            <div class="section__title margin-top-2rem dp__align gap-3rem">
+              <p class="font-2-5rem letter-4% weight-600">Browse By Category</p>
+            </div>
+
+            <div class="section__arrows dp__align gap-1rem">
+              <div class="section__arrow__left">
+                <i class="fa-solid fa-arrow-left section__arrow cursor"></i>
+              </div>
+
+              <div class="section__arrow__right">
+                <i class="fa-solid fa-arrow-right section__arrow cursor"></i>
+              </div>
+            </div>
+          </div>
+          <div
+            class="browse__categories__block dp__align margin-top-4rem gap-1rem"
+          >
+            <div
+              class="browse__category__block padding-2rem dp__cloumn gap-1rem"
+            >
+              <img
+                class="browse__category__img"
+                src="./assets/images/Category-CellPhone.svg"
+                alt=""
+              />
+
+              <p class="browse__category__title">Phones</p>
+            </div>
+            <div
+              class="browse__category__block padding-2rem dp__cloumn gap-1rem"
+            >
+              <img
+                class="browse__category__img"
+                src="./assets/images/Category-Computer.svg"
+                alt=""
+              />
+
+              <p class="browse__category__title">Computers</p>
+            </div>
+            <div
+              class="browse__category__block padding-2rem dp__cloumn gap-1rem"
+            >
+              <img
+                class="browse__category__img"
+                src="./assets/images/Category-SmartWatch.svg"
+                alt=""
+              />
+
+              <p class="browse__category__title">SmartWatch</p>
+            </div>
+            <div
+              class="browse__category__block padding-2rem dp__cloumn gap-1rem dark__red white__text"
+            >
+              <img
+                class="browse__category__img"
+                src="./assets/images/Category-Camera.svg"
+                alt=""
+              />
+
+              <p class="browse__category__title">Camera</p>
+            </div>
+            <div
+              class="browse__category__block padding-2rem dp__cloumn gap-1rem js__center"
+            >
+              <img
+                class="browse__category__img"
+                src="./assets/images/Category-Headphone.svg"
+                alt=""
+              />
+
+              <p class="browse__category__title">HeadPhones</p>
+            </div>
+            <div
+              class="browse__category__block padding-2rem dp__cloumn gap-1rem"
+            >
+              <img
+                class="browse__category__img"
+                src="./assets/images/Category-Gamepad.svg"
+                alt=""
+              />
+
+              <p class="browse__category__title">Gaming</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ! Best -->
+    <section class="best">
+      <div class="container">
+        <div class="best__block margin-top-6rem">
+          <div class="section__head__block dp__align gap-1rem">
+            <div class="section__red__box dark__red"></div>
+
+            <p class="red__text weight-600">This Month</p>
+          </div>
+
+          <div class="section__title__arrows sp__betweeen gap-3rem">
+            <div class="section__title margin-top-2rem dp__align gap-3rem">
+              <p class="font-2-5rem letter-4% weight-600">
+                Best Selling Products
+              </p>
+            </div>
+
+            <div class="section__middle__btn__block">
+              <button
+                class="section__middle__btn middle__btn dark__red white__text cursor border-none border-radius-03"
+              >
+                View All
+              </button>
+            </div>
+          </div>
+          <div
+            class="flash__products__block margin-top-3rem dp__align gap-2rem"
+          >
+            <div class="flash__product__block">
+              <!-- <div class="card__add__btn__block  bttn-1-2rem  absolute">
+              <button class="card__add__btn bg__black wd-100 white__text cart-add-btn ">Add To Cart</button>
+            </div> -->
+              <div
+                class="flash__product__img__block padding-3rem bg__light__grey relative"
+              >
+                <img src="./assets/images/red__gamepad.svg" alt="" />
+
+                <div class="product__heart__eye">
+                  <div
+                    class="product__heart__block absolute top-06rem padding-04rem circle-border bg__white right-1-4rem cursor"
+                  >
+                    <i class="fa-regular fa-heart product__heart"></i>
+                  </div>
+
+                  <div
+                    class="product__heart__block absolute top--2rem right-1-4rem padding-04rem bg__white top-1-2rem circle-border cursor"
+                  >
+                    <i class="fa-regular fa-eye product__eye"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="flash__product__info__block dp__cloumn gap-05rem margin-top-1rem"
+              >
+                <p class="flash__product__title">HAVIT HV-G92 Gamepad</p>
+
+                <div class="flash__product__prices__block dp__align gap-05rem">
+                  <p class="red__text">$<span class="price">120</span></p>
+
+                  <p class="grey__text line-through">
+                    $<span class="price">160</span>
+                  </p>
+                </div>
+
+                <div
+                  class="flash__product__stars__feedback dp__align gap-05rem"
+                >
+                  <div class="flash__stars">
+                    <img src="./assets/images/star__yellow.svg" alt="" />
+
+                    <img src="./assets/images/star__yellow.svg" alt="" />
+
+                    <img src="./assets/images/star__yellow.svg" alt="" />
+
+                    <img src="./assets/images/star__yellow.svg" alt="" />
+
+                    <img src="./assets/images/star__yellow.svg" alt="" />
+                  </div>
+
+                  <div class="flash__feedback grey__text">
+                    <p>(<span class="flash__feedback__num">88</span>)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bigRadio margin-top-6rem">
+      <div class="container">
+        <div class="bigRadio__block bg__black padding-4rem dp__align">
+          <div class="bigRadio__left__block dp__cloumn gap-1rem">
+            <p class="bigRadio__left__first light__green__text weight-600">
+              Categories
+            </p>
+
+            <p class="bigRadio__left__second white__text weight-600 font-3rem">
+              Enhance Your Music Experience
+            </p>
+
+            <div
+              class="bigRadio__times__block dp__align gap-2rem margin-top-1rem"
+            >
+              <div
+                class="bigRadio__time__block padding-1rem-1-5rem bg bg__white circle-border"
+              >
+                <p class="weight-600 font-1-2rem text__center">23</p>
+
+                <p class="g">Hours</p>
+              </div>
+
+              <div
+                class="bigRadio__time__block padding-1rem-1-5rem bg bg__white circle-border"
+              >
+                <p class="weight-600 font-1-2rem text__center">23</p>
+
+                <p class="g">Hours</p>
+              </div>
+
+              <div
+                class="bigRadio__time__block padding-1rem-1-5rem bg bg__white circle-border"
+              >
+                <p class="weight-600 font-1-2rem text__center">23</p>
+
+                <p class="g">Hours</p>
+              </div>
+
+              <div
+                class="bigRadio__time__block padding-1rem-1-5rem bg bg__white circle-border"
+              >
+                <p class="weight-600 font-1-2rem text__center">23</p>
+
+                <p class="g">Hours</p>
+              </div>
+            </div>
+            <div class="green__btn__block margin-top-2rem">
+              <button
+                class="white__text light__green__btn bg__light__green border-radius-03 weight-500"
+              >
+                Buy Now!
+              </button>
+            </div>
+          </div>
+          <div class="bigRadio__img__block">
+            <img
+              class="bigRadio__img"
+              src="./assets/images/big-radio.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ! Best -->
+    <section class="best">
+      <div class="container">
+        <div class="best__block margin-top-6rem">
+          <div class="section__head__block dp__align gap-1rem">
+            <div class="section__red__box dark__red"></div>
+
+            <p class="red__text weight-600">Our Products</p>
+          </div>
+
+          <div class="section__title__arrows sp__betweeen gap-3rem">
+            <div class="section__title margin-top-2rem dp__align gap-3rem">
+              <p class="font-2-5rem letter-4% weight-600">
+                Explore Our Products
+              </p>
+            </div>
+
+            <div class="section__arrows dp__align gap-1rem">
+              <div class="section__arrow__left">
+                <i class="fa-solid fa-arrow-left section__arrow cursor"></i>
+              </div>
+
+              <div class="section__arrow__right">
+                <i class="fa-solid fa-arrow-right section__arrow cursor"></i>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flash__products__block margin-top-3rem dp__align gap-2rem"
+          >
+            <div class="flash__product__block">
+              <!-- <div class="card__add__btn__block  bttn-1-2rem  absolute">
+              <button class="card__add__btn bg__black wd-100 white__text cart-add-btn ">Add To Cart</button>
+            </div> -->
+              <div
+                class="flash__product__img__block padding-3rem bg__light__grey relative"
+              >
+                <img src="./assets/images/red__gamepad.svg" alt="" />
+
+                <div class="product__heart__eye">
+                  <div
+                    class="product__heart__block absolute top-06rem padding-04rem circle-border bg__white right-1-4rem cursor"
+                  >
+                    <i class="fa-regular fa-heart product__heart"></i>
+                  </div>
+
+                  <div
+                    class="product__heart__block absolute top--2rem right-1-4rem padding-04rem bg__white top-1-2rem circle-border cursor"
+                  >
+                    <i class="fa-regular fa-eye product__eye"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="flash__product__info__block dp__cloumn gap-05rem margin-top-1rem"
+              >
+                <p class="flash__product__title">HAVIT HV-G92 Gamepad</p>
+
+                <div class="flash__product__prices__block dp__align gap-05rem">
+                  <p class="red__text">$<span class="price">120</span></p>
+
+                  <p class="grey__text line-through">
+                    $<span class="price">160</span>
+                  </p>
+                </div>
+
+                <div
+                  class="flash__product__stars__feedback dp__align gap-05rem"
+                >
+                  <div class="flash__stars">
+                    <img src="./assets/images/star__yellow.svg" alt="" />
+
+                    <img src="./assets/images/star__yellow.svg" alt="" />
+
+                    <img src="./assets/images/star__yellow.svg" alt="" />
+
+                    <img src="./assets/images/star__yellow.svg" alt="" />
+
+                    <img src="./assets/images/star__yellow.svg" alt="" />
+                  </div>
+
+                  <div class="flash__feedback grey__text">
+                    <p>(<span class="flash__feedback__num">88</span>)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flash__products__block margin-top-3rem dp__align gap-2rem"
+          >
+            <div class="flash__product__block">
+              <!-- <div class="card__add__btn__block  bttn-1-2rem  absolute">
+              <button class="card__add__btn bg__black wd-100 white__text cart-add-btn ">Add To Cart</button>
+            </div> -->
+              <div
+                class="flash__product__img__block padding-3rem bg__light__grey relative"
+              >
+                <img src="./assets/images/red__gamepad.svg" alt="" />
+
+                <div class="product__heart__eye">
+                  <div
+                    class="product__heart__block absolute top-06rem padding-04rem circle-border bg__white right-1-4rem cursor"
+                  >
+                    <i class="fa-regular fa-heart product__heart"></i>
+                  </div>
+
+                  <div
+                    class="product__heart__block absolute top--2rem right-1-4rem padding-04rem bg__white top-1-2rem circle-border cursor"
+                  >
+                    <i class="fa-regular fa-eye product__eye"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="flash__product__info__block dp__cloumn gap-05rem margin-top-1rem"
+              >
+                <p class="flash__product__title">HAVIT HV-G92 Gamepad</p>
+
+                <div class="flash__product__prices__block dp__align gap-05rem">
+                  <p class="red__text">$<span class="price">120</span></p>
+
+                  <p class="grey__text line-through">
+                    $<span class="price">160</span>
+                  </p>
+                </div>
+
+                <div
+                  class="flash__product__stars__feedback dp__align gap-05rem"
+                >
+                  <div class="flash__stars">
+                    <img src="./assets/images/star__yellow.svg" alt="" />
+
+                    <img src="./assets/images/star__yellow.svg" alt="" />
+
+                    <img src="./assets/images/star__yellow.svg" alt="" />
+
+                    <img src="./assets/images/star__yellow.svg" alt="" />
+
+                    <img src="./assets/images/star__yellow.svg" alt="" />
+                  </div>
+
+                  <div class="flash__feedback grey__text">
+                    <p>(<span class="flash__feedback__num">88</span>)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- !  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
